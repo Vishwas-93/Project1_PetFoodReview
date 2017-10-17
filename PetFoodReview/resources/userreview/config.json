@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"emailAddress": {
+			"name": "emailAddress",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "emailAddress",
+			"order": 0
+		},
+		"petType": {
+			"name": "petType",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "petType",
+			"order": 1
+		},
+		"productName": {
+			"name": "productName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "productName",
+			"order": 2
+		},
+		"productRating": {
+			"name": "productRating",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "productRating",
+			"order": 3
+		},
+		"reviewHeading": {
+			"name": "reviewHeading",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "reviewHeading",
+			"order": 4
+		},
+		"reviews": {
+			"name": "reviews",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "reviews",
+			"order": 5
+		},
+		"imgId": {
+			"name": "imgId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "imgId",
+			"order": 6
+		}
+	}
+}

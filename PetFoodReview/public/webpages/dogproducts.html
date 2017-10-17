@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pet's Food Review</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="../stylesheets/styles.css">
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+    /* Remove the jumbotron's default bottom margin */
+     .jumbotron {
+      margin-bottom: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron" style="margin-bottom:0px">
+  <div class="container text-center">
+    <h1>Pet's Food Review</h1>
+    <p>Saving good pets from bad food one review at a time.</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">Pet's Food Review</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Home</a></li>
+        <!-- <li><a href="#">Reviews</a></li> -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Types of Pets
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./dogproducts.html">Dogs</a></li>
+            <li><a class="dropdown-item" href="./catproducts.html">Cats</a></li>
+          </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+            <li><span class="glyphicon glyphicon-user"></span>You are writing a review</li>
+            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+          </ul> -->
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./reviewform.html"><span class="glyphicon glyphicon-user"></span> Write a Review?</a></li>
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">EVO</div>
+        <div class="panel-body"><img src="../img/dog/evo.jpg" class="img-responsive" style="width:100%" alt="EVO">
+        </div>
+        <div class="panel-footer">EVO Grain Free Turkey and Chicken Large Bites Dry Dog Food, 28.6lbs
+          <br>$70.99
+          <br><a class="btn btn-primary" data-toggle="modal" data-target="#dogsModal">REVIEWS <span class="badge">5</span></a><br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">MERRICK</div>
+        <div class="panel-body"><img src="../img/dog/merrick.jpg" class="img-responsive" style="width:100%" alt="MERRICK"></div>
+        <div class="panel-footer">Merrick Grain Free Real Texas Beef + Sweet Potato Dry Dog Food, 25lbs
+          <br>$59.99
+          <br><a class="btn btn-primary" data-toggle="modal" data-target="#dogsModal">REVIEWS <span class="badge">5</span></a><br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">PRO PLAN</div>
+        <div class="panel-body"><img src="../img/dog/proplan.jpg" class="img-responsive" style="width:100%" alt="PRO PLAN"></div>
+        <div class="panel-footer">Pro Plan Savor Shredded Blend Chicken and Rice Dog Food, 35lbs
+        <br>$44.99
+        <br><a class="btn btn-primary" data-toggle="modal" data-target="#dogsModal">REVIEWS <span class="badge">5</span></a><br>
+      </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">HILL'S</div>
+        <div class="panel-body"><img src="../img/dog/sciencediet.jpg" class="img-responsive" style="width:100%" alt="HILL'S"></div>
+        <div class="panel-footer">Hill's Science Diet Large Breed Adult Dry Dog Food, 35lbs
+        <br>$46.99
+        <br><a class="btn btn-primary" data-toggle="modal" data-target="#dogsModal">REVIEWS <span class="badge">5</span></a><br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">SOLID GOLD</div>
+        <div class="panel-body"><img src="../img/dog/solidgold.jpg" class="img-responsive" style="width:100%" alt="SOLID GOLD"></div>
+        <div class="panel-footer">Solid Gold Wee Bit Holistic Dry Dog Food, Bison and Brown Rice with Pearled Barley, 12lbs
+        <br>$34.99
+        <br><a class="btn btn-primary" data-toggle="modal" data-target="#dogsModal">REVIEWS <span class="badge">5</span></a><br>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">WHOLE HEARTED</div>
+        <div class="panel-body"><img src="../img/dog/wholehearted.jpg" class="img-responsive" style="width:100%" alt="WHOLE HEARTED"></div>
+        <div class="panel-footer">WholeHearted Grain Free All Life Stages Salmon and Pea Recipe Dry Dog Food, 25lbs
+        <br>$44.99<br>
+        <a class="btn btn-primary" data-toggle="modal" data-target="#dogsModal">REVIEWS <span class="badge">5</span></a><br>
+      </div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+
+<!-- Modal -->
+<div class="modal fade" id="dogsModal" tabindex="-1" role="dialog" aria-labelledby="dogsModalTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="dogsModalTitle">Product Reviews</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+<!--  -->
+
+<!-- <div class="modal-body" id="modalBody">
+
+<div class="card">
+  <div class="card-block" id="reviewHeadingModal">
+    <h4 class="card-title">
+
+
+    </h4>
+    <div id="productRatingModal"><h4 class="card-title">
+
+
+    </h4></div>
+    <div id="sectionImgScrollModal">
+
+    </div>
+    <div id="sectionUserEmailModal"><h6 class="card-subtitle mb-2 text-muted">
+
+
+    </h6></div>
+    <div id="sectionReviewModal"><p class="card-text">
+
+
+    </p></div>
+
+  </div>
+</div>
+
+
+</div> -->
+
+
+<!-- Card inside Modal -->
+<div class="modal-body" id="modalBody">
+ <!-- <div class="card">
+  <div class="card-block">
+    <h4 class="card-title"></h4>
+    <h6 class="card-subtitle mb-2 text-muted">HHHHHHHHHHHHHHHHHHHHHH</h6>
+    <h6 class="card-subtitle mb-2 text-muted">laicjk;lmaslcknal;sk</h6>  -->
+    <!-- <p class="card-text">asdkhaisudhoaisjdlkanckjnaksckibsycbasncanslcnaslcnlasknclknaslcknalkcnlasknc</p> -->
+    <!-- <img class="" id="sectionImgScrollModal"> -->
+  <!-- </div> -->
+<!-- </div> -->
+</div>
+
+
+
+<!--  -->
+
+
+
+
+
+
+      <!-- <div class="modal-body" id="modalBody">
+
+
+        <div id="reviewHeadingModal">
+
+        </div>
+
+        <div id="productRatingModal">
+
+        </div>
+        <div id="sectionImgScrollModal">
+
+        </div>
+        <div id="sectionReviewModal">
+
+        </div>
+        <div id="sectionUserEmailModal">
+
+        </div>
+
+
+      </div> -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/dpd.js" type="text/javascript"></script>
+<script type="text/javascript" src="../scripts/datastore.js"></script>
+<script type="text/javascript" src="../scripts/product.js"></script>
+</body>
+</html>

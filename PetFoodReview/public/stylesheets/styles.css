@@ -1,0 +1,92 @@
+
+body {
+  background-color: inherit;
+}
+
+.checked {
+  color: orange;
+}
+
+.item-container {
+  border: 2px solid #000;
+  background-color: white;
+  margin-bottom: 50px;*/
+}
+
+.item-container div {
+  min-height: 410px;
+  padding: 10px;
+}
+
+.item-image {
+  display: block;
+  width: 100%;
+}
+
+.item-image-container {
+  float: left;
+  width: 500px;
+}
+
+.item-desc {
+  background-color: white;
+  overflow: hidden;
+  margin: 10px;
+  border: 2px dashed #ccc;
+  -webkit-border-radius: 5px;
+}
+
+.page {
+  transform: translate(20%, 5%);
+  width: 70%;
+  height: 50%;
+}
+
+.review-container {
+  top: 30%;
+  border: 2px solid #000;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 50px;*/
+}
+
+.review-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.review {
+  margin: 10px 10px;
+  padding: 5px;
+  background-color: white;
+  border: 2px dashed #ccc;
+  -webkit-border-radius: 5px;
+  min-height: 48px;
+}
+
+.reviewButton {
+  margin: 10px 10px;
+}
+
+.bgImage {
+ margin: 0;
+ /*background-image: url('../img/PetsImg.jpg');*/
+ /*background-size: 1440px 800px;*/
+ background-repeat:no-repeat;
+ display: compact;
+ background-size: cover;
+ height: 600px;
+ width: 1440px;
+ /*font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+ }
+
+ .margins{
+   margin-bottom: 0px !important;
+ }
+
+.marginForForm{
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-bottom: 70px;
+}
